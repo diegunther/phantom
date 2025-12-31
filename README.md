@@ -2,8 +2,6 @@
 
 A cyberpunk-themed hacker dashboard with ASCII art, glitch effects, and a dark terminal aesthetic.
 
-![PHANTOM Dashboard](preview.png)
-
 ## Features
 
 - ASCII Skull - Animated skull with typing effect and pixelated floating animation
@@ -34,9 +32,6 @@ Open `index.html` in any modern browser - no build process or dependencies requi
 ## Usage
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/phantom-dashboard.git
-
 # Open in browser
 open index.html
 ```
