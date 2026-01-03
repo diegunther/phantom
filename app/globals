@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-fira-code: 'Fira Code', 'Consolas', monospace;
+  }
+
+  * {
+    @apply box-border;
+  }
+
+  body {
+    @apply bg-phantom-dark text-phantom-mid font-mono overflow-x-hidden;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-0.5;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-phantom-text-dark;
+  }
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+  }
+
+  .text-shadow-strong {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+                 0 0 15px rgba(255, 255, 255, 0.3),
+                 0 0 30px rgba(255, 255, 255, 0.1);
+  }
+
+  .border-phantom {
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+
+  .bg-panel {
+    background: rgba(18, 18, 22, 0.95);
+  }
+}
