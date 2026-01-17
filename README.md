@@ -96,17 +96,3 @@ Modify animation timings in component files or add new keyframes in `tailwind.co
 ### Components
 
 All components are in the `components/` directory and can be easily customized or extended.
-
-## Browser Support
-
-- Chrome/Edge (latest)
-- Firefox (latest)
-- Safari (latest)
-
-## License
-
-MIT
-
-## Credits
-
-Original design concept converted to modern Next.js application with enhanced animations and performance.
